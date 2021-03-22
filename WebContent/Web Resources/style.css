@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+}
+
+.background{
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+}
+
+.text, .box{
+    margin-top: 40vh;
+    flex: 1;
+}
+
+.text{
+    margin-left: 10%;
+    font-weight: 300px;
+}
+
+.box{
+    margin-left: 25%;
+}
+
+.text h1{
+    font-size: 70px;
+    color: #f5853b;
+    font-weight: 500;
+    transition: ease .3s;
+}
+
+.text p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.text p a{
+    color: #f5853b;
+    font-weight: 700;
+}
+
+#footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.footerParagraphh{
+	text-align: center;
+}
+
+.form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.table{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    overflow: scroll;
+}
+
+tr{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.username, .password{
+    border-bottom: 1px solid #f5853b;
+}
+
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
+}
+
+/* Animaciones */
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+  
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+  
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+}
+  
+.fadeIn {
+    animation-name: fadeIn;
+}
